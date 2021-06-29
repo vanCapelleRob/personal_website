@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.web_page {
+    box-shadow: 0 0 4px  grey;
+    width: 70%;
+    height: 100%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.short-info {
+    height: auto;
+    width: auto;
+    /* background-color: red; */
+}
+
+.short-info .left {
+    text-align: center;
+    /* background-color: green; */
+}
+
+.short-info .right {
+    text-align: center;
+    /* width: 75%;
+    margin-left: 12.5%; */
+    /* background-color: aqua; */
+}
+
+.nav {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
+    background-color:lightsalmon;
+}
+
+.nav p {
+    margin: 0;
+}
+
+hr {
+    width: 80%;
+    background-color: lightgrey;
+}
