@@ -5,11 +5,11 @@ body {
 }
 
 .web_page {
-    box-shadow: 0 0 4px  grey;
-    width: 70%;
-    height: 100%;
-    margin-right: 15%;
-    margin-left: 15%;
+    /* box-shadow: 0 0 4px  grey; */
+    width: 50%;
+    height: 1999px;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
 .short-info {
@@ -45,4 +45,18 @@ body {
 hr {
     width: 80%;
     background-color: lightgrey;
+}
+
+.info {
+    /* background-color: red; */
+}
+
+.info .subject1 {
+    /* background-color: green; */
+}
+
+
+i {
+    font-size: 12px;
+    font-weight: normal;
 }
