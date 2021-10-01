@@ -11,43 +11,81 @@
 </head>
 <body>
     <div class="container-header">
-        <pre>
-            $$$$$$$\            $$\                                                  $$$$$$\                                $$\ $$\           
-            $$  __$$\           $$ |                                                $$  __$$\                               $$ |$$ |          
-            $$ |  $$ | $$$$$$\  $$$$$$$\        $$\    $$\ $$$$$$\  $$$$$$$\        $$ /  \__| $$$$$$\   $$$$$$\   $$$$$$\  $$ |$$ | $$$$$$\  
-            $$$$$$$  |$$  __$$\ $$  __$$\       \$$\  $$  |\____$$\ $$  __$$\       $$ |       \____$$\ $$  __$$\ $$  __$$\ $$ |$$ |$$  __$$\ 
-            $$  __$$&lt; $$ /  $$ |$$ |  $$ |       \$$\$$  / $$$$$$$ |$$ |  $$ |      $$ |       $$$$$$$ |$$ /  $$ |$$$$$$$$ |$$ |$$ |$$$$$$$$ |
-            $$ |  $$ |$$ |  $$ |$$ |  $$ |        \$$$  / $$  __$$ |$$ |  $$ |      $$ |  $$\ $$  __$$ |$$ |  $$ |$$   ____|$$ |$$ |$$   ____|
-            $$ |  $$ |\$$$$$$  |$$$$$$$  |         \$  /  \$$$$$$$ |$$ |  $$ |      \$$$$$$  |\$$$$$$$ |$$$$$$$  |\$$$$$$$\ $$ |$$ |\$$$$$$$\ 
-            \__|  \__| \______/ \_______/           \_/    \_______|\__|  \__|       \______/  \_______|$$  ____/  \_______|\__|\__| \_______|
-                                                                                                        $$ |                                  
-                                                                                                        $$ |                                  
-                                                                                                        \__|                                  
+        <!-- <div class="prompt">
+            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$ whoami</span></p>
+        </div> -->
+        <pre id="mobile-ascii">
+
+$$$$$$$\            $$\       
+$$  __$$\           $$ |      
+$$ |  $$ | $$$$$$\  $$$$$$$\  
+$$$$$$$  |$$  __$$\ $$  __$$\ 
+$$  __$$&lt; $$ /  $$ |$$ |  $$ |
+$$ |  $$ |$$ |  $$ |$$ |  $$ |
+$$ |  $$ |\$$$$$$  |$$$$$$$  |
+\__|  \__| \______/ \_______/ 
+
+<p>Terminal-style portfolio website!</p>
+<p id="disclaimer">(Get the full experience on a computer screen!)</p>                 
         </pre>
 
-        <div class="commands-list">
-            <p>Welcome on my portfolio website! This website is designed like a terminal and should be used that way. Here is a list of all the commands
-                you can use to find everything about me!
-            </p>
-        </div>
+        <pre id="ascii-medium">
+
+$$$$$$$\            $$\                         $$$$$$\      
+$$  __$$\           $$ |                       $$  __$$\     
+$$ |  $$ | $$$$$$\  $$$$$$$\        $$\    $$\ $$ /  \__|    
+$$$$$$$  |$$  __$$\ $$  __$$\       \$$\  $$  |$$ |          
+$$  __$$&lt; $$ /  $$ |$$ |  $$ |       \$$\$$  / $$ |          
+$$ |  $$ |$$ |  $$ |$$ |  $$ |        \$$$  /  $$ |  $$\     
+$$ |  $$ |\$$$$$$  |$$$$$$$  |         \$  /$$\\$$$$$$  |$$\ 
+\__|  \__| \______/ \_______/           \_/ \__|\______/ \__|
+<p>Terminal-style portfolio website!</p>
+<p id="disclaimer">(Get the full experience on a computer screen!)</p>
+</pre>
+
+        <pre id="ascii">
+            
+
+
+            
+
+$$$$$$$\            $$\                                                  $$$$$$\                                $$\ $$\           
+$$  __$$\           $$ |                                                $$  __$$\                               $$ |$$ |          
+$$ |  $$ | $$$$$$\  $$$$$$$\        $$\    $$\ $$$$$$\  $$$$$$$\        $$ /  \__| $$$$$$\   $$$$$$\   $$$$$$\  $$ |$$ | $$$$$$\  
+$$$$$$$  |$$  __$$\ $$  __$$\       \$$\  $$  |\____$$\ $$  __$$\       $$ |       \____$$\ $$  __$$\ $$  __$$\ $$ |$$ |$$  __$$\ 
+$$  __$$&lt; $$ /  $$ |$$ |  $$ |       \$$\$$  / $$$$$$$ |$$ |  $$ |      $$ |       $$$$$$$ |$$ /  $$ |$$$$$$$$ |$$ |$$ |$$$$$$$$ |
+$$ |  $$ |$$ |  $$ |$$ |  $$ |        \$$$  / $$  __$$ |$$ |  $$ |      $$ |  $$\ $$  __$$ |$$ |  $$ |$$   ____|$$ |$$ |$$   ____|
+$$ |  $$ |\$$$$$$  |$$$$$$$  |         \$  /  \$$$$$$$ |$$ |  $$ |      \$$$$$$  |\$$$$$$$ |$$$$$$$  |\$$$$$$$\ $$ |$$ |\$$$$$$$\ 
+\__|  \__| \______/ \_______/           \_/    \_______|\__|  \__|       \______/  \_______|$$  ____/  \_______|\__|\__| \_______|
+                                                                                            $$ |                                  
+                                                                                            $$ |                                  
+                                                                                            \__|                                  
+<p>Terminal-style portfolio website!</p>
+                                                                                        </pre>
+
 
     </div>
 
-
+    <!-- start flexbox -->
     <div class="container-terminal">
-        <div class="prompt">
+        <div class="prompt" id="empty">
             <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$</span></p>
         </div>
-
-        <div class="prompt">
-            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$ ./list_personal_information</span></p>
+        <div class="prompt" id="ls">
+            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$ ls</span></p>
         </div>
-        <div class="list_personal_informatiom">
+        <div class="ls" id="ls">
+            <p>list_personal_information (neofetch) &nbsp;&nbsp;&nbsp;&nbsp;education.txt&nbsp;&nbsp;&nbsp;&nbsp;experience.txt&nbsp;&nbsp;&nbsp;&nbsp;<span id="blue">projects</span></p>
+        </div>
+        <div class="prompt">
+            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$ neofetch</span></p>
+        </div>
+        <div class="list_personal_information">
             <div class="picture">
                 <img width="150px" src="../media/pf.jpeg" alt="Profile picture">
             </div>
             <div class="info">
-                <h2><span>Rob@Information</span></h2>
+                <h2><span>Rob@Portfolio</span></h2>
                 <hr>
                 <p><span>Name</span> : Rob van Capelle</p>
                 <p><span>Phone number</span> : +32478 68 08 02</p>
@@ -60,10 +98,94 @@
             </div>
         </div>
         
-        <p>TODO: DELETE THIS, MAKE IT WITH FLEX NOT FLOAT</p>
+        <!-- <p>TODO: DELETE THIS, MAKE IT WITH FLEX NOT FLOAT</p> -->
 
         <div class="prompt">
             <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$</span></p>
+        </div>
+
+        <div class="prompt">
+            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$ cat education.txt</span></p>
+        </div>
+
+        <div class="education">
+            <pre>
+-------------------
+|    Education    |
+-------------------
+</pre>
+            <p>Artesis Plantijn (AP) <br> 2019 - 2022  <br>   Applied informatics</p>
+        </div>
+
+        <div class="prompt">
+            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$ cat experience.txt</span></p>
+        </div>
+        
+        <div class="experience">
+            <pre>
+--------------------
+|    Experience    |
+--------------------
+</pre>
+            <p> Possible internship at IdentIT
+                Januari 2022 - June 2022
+                
+                One week technical evaluation of Essers
+                fall 2019
+                
+                Caddy master at the Royal Antwerp Golf Club
+                2015 - current </p>
+        </div>
+        <div class="prompt">
+            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$ cat skills.txt</span></p>
+        </div>
+        <div class="skills">
+            <pre>
+----------------
+|    Skills    |
+----------------
+</pre>
+            <p>TODO: HAVE SOME SKILLS</p>
+        </div>
+        <div class="prompt">
+            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$ cat interests.txt</span></p>
+        </div>
+        <div class="interests">
+            <pre>
+-------------------
+|    Interests    |
+-------------------
+</pre>
+            <p> Linux, automation, security, networking, angular, react, mysql, django, ... </p>
+        </div>
+        <div class="prompt">
+            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~</span><span id="white">$ cd projects</span></p>
+        </div>
+        <div class="prompt">
+            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~/projects/</span><span id="white">$ ls</span></p>
+        </div>
+        <div class="personal-projects">
+
+        </div>
+        <div class="prompt">
+            <p>Rob@Portfolio<span id="white">:</span><span id="blue">~/projects/</span><span id="white">$ sudo make_contact</span></p>
+        </div>
+        <div class="failed-sudo">
+            <p>[sudo] password for Rob: <br> Sorry, try that again. <br> [sudo] password for Rob: </p>
+        </div>
+        <div class="contact">
+            <pre>
+-----------------
+|    Contact    |
+-----------------
+</pre>
+            <form action="">
+                <input type="text" name="first_name" placeholder="First name"><br>
+                <input type="text" name="last_name" placeholder="Last name"><br>                    
+                <input type="email" name="email" placeholder="example@mail.com"><br>
+                <input type="text" name="message" placeholder="Write me a message!"><br>
+                <input type="submit" value="Send message">
+            </form>
         </div>
 
     </div>
