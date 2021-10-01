@@ -1,11 +1,43 @@
 body {
     background-color: rgba(29,31,33,255);
+    /* font-family: 'Roboto Slab Regular';
+    font-family: 'Fira Sans SemiBold'; */
+    font-family: 'Fira Mono Regular';
+ 
 }
-.container {
+
+/*
+* container-header must be like 80% of page, pretty big but not full
+* container-terminal must be smaller.
+*/
+
+.container-header pre{
+    color: rgba(178, 186, 102, 255);
+}
+
+.container-header {
+    color: white;
+}
+
+
+.container-terminal {
     width: auto; /* should be 100% on full page*/
     /* border: 1px solid black; */
-    background-color: rgba(29,31,33,255);
+    /* background-color: rgba(29,31,33,255); */
+    /* background-color: grey; */
     float: left;
+}
+
+.prompt {
+    color: rgba(178, 186, 102, 255);
+}
+
+.prompt #white {
+    color: white;
+}
+
+.prompt #blue {
+    color: blue;
 }
 
 .picture {
@@ -19,6 +51,15 @@ body {
     color: white;
     margin-left: 8px;
     padding: 4px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 img {

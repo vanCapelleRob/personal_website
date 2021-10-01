@@ -5,6 +5,12 @@
     note: does not look amazing on phones...
 
 - do even more linux/terminal themed style?
+    YES
+    have big banner with name, then some site info, then a list of all the possible commands
+    each command they type will display like an actual terminal.
+    Also have a list all button, for saving time
+    And a clear button to clear the terminal
 
 - change color of page. So from light to dark themed
 - switch between dutch, english (mss french) 
+- for ascii use this https://patorjk.com/software/taag/#p=testall&f=Graffiti&t=Rob%20van%20Capelle
